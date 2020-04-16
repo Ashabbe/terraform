@@ -1,7 +1,7 @@
 pipeline {
    agent any
    stages {
- stage(‘codecheckout’) {
+ stage('codecheckout') {
  steps {
  git 'https://github.com/Ashabbe/terraform.git'
  
